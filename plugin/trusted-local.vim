@@ -31,6 +31,6 @@ endfunction
 
 command! EditVimrcLocal call <sid>SmartSplit()
 
-nnoremap <leader>el :EditVimrcLocal<cr>
+nnoremap <Plug>(EditVimrcLocal) :EditVimrcLocal<cr>
 
 " vim:ft=vim
