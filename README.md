@@ -4,6 +4,18 @@ Vim Trusted Local
 This plugin adds support for project-local vimrc files, but with the benefit of
 requiring you to specifically "trust" the file before it will be loaded.
 
+Installation and Config
+-----------------------
+
+If you're using lazy.nvim, you can install and configure with the following:
+
+```lua
+  {
+    'christoomey/trusted-local',
+    keys = { { '<leader>el', '<Plug>(EditVimrcLocal)' } },
+  },
+```
+
 Local vimrcs
 ------------
 
